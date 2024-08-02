@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Travel Website</title>
+   <style>
+       body {
+           font-family: Arial, sans-serif;
+           margin: 0;
+           padding: 0;
+       }
+       .navbar {
+           background-color: #333;
+           color: #fff;
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           padding: 10px;
+       }
+       .logo {
+           display: flex;
+           align-items: center;
+       }
+       .logo img {
+           height: 30px;
+           margin-right: 10px;
+       }
+       .logo h1 {
+           font-size: 24px;
+       }
+       .nav-links {
+           display: flex;
+       }
+       .nav-links a {
+           color: #fff;
+           text-decoration: none;
+           margin-right: 20px;
+       }
+       .search-box {
+           display: flex;
+           align-items: center;
+       }
+       .search-input {
+           padding: 5px;
+           border: 1px solid #ccc;
+           border-radius: 5px;
+           margin-right: 10px;
+       }
+       .search-button {
+           background-color: #0074D9;
+           color: #fff;
+           border: none;
+           border-radius: 5px;
+           cursor: pointer;
+       }
+       .clear-button {
+           background-color: #FF4136;
+           color: #fff;
+           border: none;
+           border-radius: 5px;
+           cursor: pointer;
+       }
+       .hero-section {
+           background-image: url('./Chicago.jpeg');
+           background-size: cover;
+           height: 700px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+       }
+       .book-button {
+           background-color: #2ECC40;
+           color: #fff;
+           border: none;
+           border-radius: 5px;
+           padding: 10px 20px;
+           font-weight: bold;
+           cursor: pointer;
+       }
+       .social-media {
+           position: fixed;
+           left: 20px;
+           bottom: 20px;
+           display: flex;
+           flex-direction: column;
+       }
+       .social-media a {
+           color: white;
+           text-decoration: none;
+           margin-bottom: 10px;
+       }
+   </style>
+</head>
+<body>
+   <div class="navbar">
+       <div class="logo">
+           <img src="./airplanelogo.jpg" alt="Plane Logo">
+           <h1>Let's Go Places</h1>
+       </div>
+       <div class="nav-links">
+           <a href="./travel_recommendation.html">Home</a>
+           <a href="./about_us.html">About Us</a>
+           <a href="./contact_us.html">Contact Us</a>
+       </div>
+       <div class="search-box">
+           <input type="text" class="search-input" placeholder="Find your adventure..">
+           <button class="search-button" id="btnSearch">Search</button>
+           <button class="clear-button">Clear</button>
+       </div>
+   </div>
+   <div class="hero-section">
+    <table>
+        <tr><td><div style="font-size:xxx-large; color:white;">COME WITH US</div></td></tr>
+        <tr><td><div style="color:white; font-size:large;">We will make your dream destination a reality</div></td></tr>
+            <tr><td><button class="book-button">Book Your Itinerary</button></td></tr>
+    </table>
+   </div>
+   <div class="social-media">
+       <a href="#">Facebook</a>
+       <a href="#">Twitter</a>
+       <a href="#">Instagram</a>
+   </div>
+</body>
+</html>
